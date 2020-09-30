@@ -1,1 +1,1 @@
-web: gunicorn wsgi:__main__
+web: gunicorn toProve.wsgi:app
